@@ -21,7 +21,7 @@ from task3.views import platform, games, cart
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("", platform),
+    path("platform/", platform),
     path("games/", games),
     path("cart/", cart),
     path("func/", func_class),
